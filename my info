@@ -1,0 +1,10 @@
+void main() {
+  String name = 'Nelson';
+  String favouredapp = 'EasyEquities';
+  String city = 'Polokwane';
+  
+  print('My name is $name');
+  print('My favoured app is $favouredapp');
+  print('My home city is $city');
+  
+}
