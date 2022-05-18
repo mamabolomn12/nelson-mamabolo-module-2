@@ -1,0 +1,22 @@
+void main() { 
+var Apps = new List<String>.filled(10, '', growable: false);
+
+  Apps[0] = 'Easy Equities';
+  Apps[1] = 'Ambani Africa';
+  Apps[2] = 'FNB Banking';
+  Apps[3] = 'SnapScan';
+  Apps[4] = 'Live Inspect';
+  Apps[5] = 'WumDrop';
+  Apps[6] = 'Domestly';
+  Apps[7] = 'Shyft';
+  Apps[8] = 'Khula';
+  Apps[9] = 'Naked Insurance';
+
+      print(Apps..sort());
+      print('-----------------------------------------------------------------------------------------------');
+      print('The 2017 MTN Business App of the year was awarded to:' + Apps[7]);
+      print('-----------------------------------------------------------------------------------------------');
+      print('The 2018 MTN Business App of the year was awarded to:' + Apps[4]);
+      print('-----------------------------------------------------------------------------------------------');
+      print('The total number of Apps in the List is 10');
+}
